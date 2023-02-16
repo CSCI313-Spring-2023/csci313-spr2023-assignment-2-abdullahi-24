@@ -1,0 +1,60 @@
+body {
+  display: block;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #2e77bc;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #6c8bb8;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.table {
+  margin-top: 3cm;
+  margin-bottom: 3cm;
+  padding: 5px;
+  border: solid black;
+}
+
+.col {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.img-col {
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 130%;
+  width: 130%;
+}
+
+.card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+}
+
+.cards .card {
+  width: 18rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #6c8bb8;
+  color: white;
+}
+
+footer h1 {
+  text-align: center;
+  color: white;
+}
